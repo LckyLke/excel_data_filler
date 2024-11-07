@@ -18,5 +18,5 @@ python main.py <file_path> <sheet_name> <column_index> -f <full_output_file> -c 
 python main.py "data.xlsx" "8760 h Korrektur" 6 -f modified_data.xlsx -c modified_column.csv
 ```
 
-### Note!
+### Note:
 modified_data.xlsx might be broken -> rather use modified_column.csv and copy the data over manually!
