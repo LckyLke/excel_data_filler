@@ -3,7 +3,7 @@
 ### Usage
 
 ```bash
-python redistribute_tool.py <file_path> <sheet_name> <column_index> -f <full_output_file> -c <column_output_file>
+python main.py <file_path> <sheet_name> <column_index> -f <full_output_file> -c <column_output_file>
 ```
 
 - `<file_path>`: Path to the Excel file.
@@ -15,5 +15,5 @@ python redistribute_tool.py <file_path> <sheet_name> <column_index> -f <full_out
 **Example:**
 
 ```bash
-python redistribute_tool.py "data.xlsx" "8760 h Korrektur" 6 -f modified_data.xlsx -c modified_column.csv
+python main.py "data.xlsx" "8760 h Korrektur" 6 -f modified_data.xlsx -c modified_column.csv
 ```
